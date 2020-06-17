@@ -57,12 +57,12 @@ public class MainActivity extends AppCompatActivity {
     public void tomarFoto(View v) {
         Toast.makeText(this, "looooool", Toast.LENGTH_SHORT).show();
         /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
-        }*/
+        }
         /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        /*Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
             // Create the File where the photo should go
 
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
 
             }
-        }
+        }*/
     }
 
     @Override
